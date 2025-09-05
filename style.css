@@ -1,0 +1,77 @@
+body {
+  background: no-repeat fixed #c99dd1
+    linear-gradient(
+      180deg,
+      rgba(227, 227, 227, 1) 0%,
+      rgba(201, 157, 209, 1) 100%
+    );
+}
+
+.box-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  justify-content: space-evenly;
+  height: 90vh;
+  font-family: "Poiret One", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Tangerine", cursive;
+  font-size: 5rem;
+  line-height: 2.5rem;
+}
+
+/* span {
+} */
+
+p {
+  width: 30rem;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+    font-size: 1.6rem;
+}
+
+input {
+  width: 20rem;
+  height: 2rem;
+  border: none;
+  border-radius: 12px;
+}
+
+select {
+  margin: 10px;
+  width: 20rem;
+  height: 2rem;
+  border: none;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.button {
+  width: 20rem;
+  height: 2rem;
+  border: none;
+  border-radius: 12px;
+  font-family: "Poiret One", sans-serif;
+  font-size: 1.6rem;
+  transition: .4s;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #ffb1f1;
+  box-shadow: 5px 5px rgb(0 0 0 / 20%);
+}
